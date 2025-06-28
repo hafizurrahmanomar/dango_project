@@ -1,0 +1,29 @@
+=>python install(global)
+=> C:\Users\hafiz\AppData\Roaming\Python\Python313\Scripts (environmental variable)
+=>pip install --user pipenv(global and project)
+=> pip pipenv install
+=> pipenv install django pillow
+=> django-admin startprojec myproject
+=>python manage.py runserver
+=> python manage.py startapp myapp
+=> python manage.py migrate
+=> python manage.py createsuperuser
+=>python manage.py runserver
+
+## setting.py
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'myapp',
+    'orders'
+]
+
+## Details 
+=> setting.py
+=> myapp/urls.py & views.py & templates
+=> orders/urls.py & views.py & templates
