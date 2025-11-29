@@ -9,7 +9,7 @@ def hello_say(request):
 #     return HttpResponse("This is the homepage of my Django app!")
 
 def homepage(request):
-    return render(request, 'home.html')
+    return render(request, 'index.html')
 def about(request):
     return render(request, 'about.html')
 def contact(request):
