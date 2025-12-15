@@ -40,7 +40,7 @@
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
   "workbench.colorTheme": "Community Material Theme Darker High Contrast",
-  "workbench.iconTheme": "file-icons",
+  "workbench.iconTheme": "vscode-great-icons",
   // terminal customization
   "workbench.colorCustomizations": {
     "terminal.background": "#1D2021",

@@ -1,0 +1,10 @@
+=> python manage.py startapp todo_app
+=> todo_app add setting.py 
+=> Model create
+=> python manage.py makemigrations todo_app
+=> open database with BeeKeeper Studio
+=> python manage.py migrate todo_app
+=> fixtures/task.json file create for Demo Fixture Data add in Model
+==for data load command===
+python manage.py loaddata todo_app/fixtures/task.json
+

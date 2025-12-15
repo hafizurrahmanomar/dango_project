@@ -1,0 +1,113 @@
+
+[
+  {
+    "model": "todo_app.task",
+    "pk": 1,
+    "fields": {
+      "title": "Learn Django Basics",
+      "description": "Understand Django project structure, settings, and apps.",
+      "completed": false,
+      "created_at": "2025-01-01T10:00:00Z",
+      "update_at": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "model": "todo_app.task",
+    "pk": 2,
+    "fields": {
+      "title": "Setup Virtual Environment",
+      "description": "Create and activate Python virtual environment for Django.",
+      "completed": true,
+      "created_at": "2025-01-02T09:30:00Z",
+      "update_at": "2025-01-02T11:00:00Z"
+    }
+  },
+  {
+    "model": "todo_app.task",
+    "pk": 3,
+    "fields": {
+      "title": "Install Django",
+      "description": "Install latest Django version using pip.",
+      "completed": true,
+      "created_at": "2025-01-03T08:45:00Z",
+      "update_at": "2025-01-03T08:45:00Z"
+    }
+  },
+  {
+    "model": "todo_app.task",
+    "pk": 4,
+    "fields": {
+      "title": "Create Todo App",
+      "description": "Create todo_app and register it in INSTALLED_APPS.",
+      "completed": false,
+      "created_at": "2025-01-04T12:00:00Z",
+      "update_at": "2025-01-04T12:00:00Z"
+    }
+  },
+  {
+    "model": "todo_app.task",
+    "pk": 5,
+    "fields": {
+      "title": "Design Task Model",
+      "description": "Create Task model with title, description, and status.",
+      "completed": true,
+      "created_at": "2025-01-05T14:20:00Z",
+      "update_at": "2025-01-05T15:00:00Z"
+    }
+  },
+  {
+    "model": "todo_app.task",
+    "pk": 6,
+    "fields": {
+      "title": "Run Migrations",
+      "description": "Apply makemigrations and migrate commands.",
+      "completed": true,
+      "created_at": "2025-01-06T10:10:00Z",
+      "update_at": "2025-01-06T10:10:00Z"
+    }
+  },
+  {
+    "model": "todo_app.task",
+    "pk": 7,
+    "fields": {
+      "title": "Create Superuser",
+      "description": "Create Django admin superuser.",
+      "completed": false,
+      "created_at": "2025-01-07T09:00:00Z",
+      "update_at": "2025-01-07T09:00:00Z"
+    }
+  },
+  {
+    "model": "todo_app.task",
+    "pk": 8,
+    "fields": {
+      "title": "Register Model in Admin",
+      "description": "Register Task model in Django admin panel.",
+      "completed": true,
+      "created_at": "2025-01-08T11:30:00Z",
+      "update_at": "2025-01-08T11:45:00Z"
+    }
+  },
+  {
+    "model": "todo_app.task",
+    "pk": 9,
+    "fields": {
+      "title": "Create Task List View",
+      "description": "Show all tasks in a list view.",
+      "completed": false,
+      "created_at": "2025-01-09T13:00:00Z",
+      "update_at": "2025-01-09T13:00:00Z"
+    }
+  },
+  {
+    "model": "todo_app.task",
+    "pk": 10,
+    "fields": {
+      "title": "Complete Django Todo Project",
+      "description": "Finalize CRUD operations for todo app.",
+      "completed": false,
+      "created_at": "2025-01-10T16:00:00Z",
+      "update_at": "2025-01-10T16:00:00Z"
+    }
+  }
+]
