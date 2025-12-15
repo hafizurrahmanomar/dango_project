@@ -1,6 +1,6 @@
+from django.http import HttpResponse
 from django.shortcuts import render
 
-from django.http import HttpResponse
 
 # Create your views here.
 def hello_say(request):
@@ -10,7 +10,21 @@ def hello_say(request):
 
 def homepage(request):
     return render(request, 'index.html')
+
 def about(request):
     return render(request, 'about.html')
+    
 def contact(request):
-    return render(request, 'contact.html')  
+    context = {
+        'page_title': 'Contact Us',
+        'contact_email': 'support@example.com',
+       'contact_phone': '123-456-7890',
+        'services': ['Web Development', 'SEO', 'Consulting'],
+        'business_hours': {
+            'Monday-Friday': '9 AM - 5 PM',
+            'Saturday': '10 AM - 2 PM',
+            'Sunday': 'Closed'
+        }
+
+    }
+    return render(request, 'contact.html', context)

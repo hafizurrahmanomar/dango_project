@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        {% block title %}Django{% endblock %}
+    </title>
+    {% comment %} Must be add for static load {% endcomment %}
+    {% load static %}
+    <link rel="stylesheet" href="https://matcha.mizu.sh/matcha.css" />
+    {% comment %} css load {% endcomment %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+  </head>
+  <body>
+
+    <h1>Django Practice</h1>
+    
+    {% include 'partials/nav.html' %} 
+    
+  {% block content %}{% endblock %}
+  {% comment %} static/javaScripts add{% endcomment %}
+    <script src="{% static 'js/scripts.js' %}"></script>
+  </body>
+
+  </html>
