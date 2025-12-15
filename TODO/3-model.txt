@@ -5,6 +5,7 @@
 => open database with BeeKeeper Studio
 => python manage.py migrate todo_app
 => fixtures/task.json file create for Demo Fixture Data add in Model
-==for data load command===
-python manage.py loaddata todo_app/fixtures/task.json
+== for data load command===
+=> python manage.py loaddata todo_app/fixtures/task.json
+=> then see to todo_app all 
 

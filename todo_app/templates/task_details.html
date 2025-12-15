@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block title %}Task Details{% endblock %}
+
+{% block content %}
+    <h2>{{ task.title }}</h2>
+    <p>{{ task.description }}</p>
+    <p>Status: {{ task.completed|yesno:"Completed,Pending" }}</p>
+    <a href="{% url 'task_list' %}">Back to Task List</a>
+{% endblock %}

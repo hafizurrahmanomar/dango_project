@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block title %}Todo List{% endblock %}
+
+{% block content %}
+    <h2>Your Tasks</h2>
+     <h2>Your Tasks list</h2>
+    <ul>
+        {% for task in tasks %}
+            <a href="{% url 'task_detail' task.pk %}"><li> <h1>{{ task.title }}</h1> </li></a>
+            <p>{{ task.description }}</p>
+        {% empty %}
+            <li>No tasks available.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

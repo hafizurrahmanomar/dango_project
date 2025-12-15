@@ -1,4 +1,8 @@
 ## Branch name
+git branch -r
+git fetch --all
+git pull --all
+
 
 1- main
 2-template
