@@ -6,10 +6,14 @@
      <h2>Your Tasks list</h2>
     <ul>
         {% for task in tasks %}
-            <a href="{% url 'task_detail' task.pk %}"><li> <h1>{{ task.title }}</h1> </li></a>
+            <a href="{% url 'task_detail' task.pk %}"> {{ task.pk}}-{{ task.title }} </a>
             <p>{{ task.description }}</p>
         {% empty %}
             <li>No tasks available.</li>
         {% endfor %}
     </ul>
+    <a href="{% url 'add_task'%}" class="btn btn-primary">Add New Task</a>
+    
 {% endblock %}
+
+
